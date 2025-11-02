@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fariz Fathullah Pradittya Putra | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="logo">Profile</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="intro">
+        <img src="fariz.jpg" alt="Foto Fariz" class="profile-img" />
+        <h1>Fariz Fathullah Pradittya Putra</h1>
+        <p>Calon Web Developer</p>
+        <a href="#about" class="btn">Kenali Saya</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Saya Fariz Fathullah Pradittya Putra, seorang calon web developer yang
+          antusias dalam mempelajari dunia pemrograman dan pengembangan web.
+          Saya memiliki minat besar dalam membuat tampilan website yang menarik,
+          responsif, dan mudah digunakan oleh pengguna. Saya selalu bersemangat
+          untuk terus belajar teknologi baru dan mengembangkan kemampuan saya di
+          bidang front-end maupun back-end development.
+        </p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <div class="edu-container">
+        <div class="edu-card">
+          <i class="fas fa-school"></i>
+          <h3>SD Muhammadiyah 1 Pakem</h3>
+        </div>
+        <div class="edu-card">
+          <i class="fas fa-school"></i>
+          <h3>SMP Negeri 1 Pakem</h3>
+        </div>
+        <div class="edu-card">
+          <i class="fas fa-university"></i>
+          <h3>SMA Negeri 1 Turi</h3>
+        </div>
+        <div class="edu-card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Universitas Teknologi Yogyakarta</h3>
+          <p>S1 Informatika (2024 - Sekarang)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML & CSS Dasar</h3>
+          <p>
+            Membangun struktur dan tampilan website yang responsif dan modern.
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js-square"></i>
+          <h3>JavaScript</h3>
+          <p>Menambahkan interaktivitas dan logika dinamis pada website.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-pencil-ruler"></i>
+          <h3>UI & UX</h3>
+          <p>Merancang tampilan antarmuka yang mudah digunakan dan menarik.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Python & Flask</h3>
+          <p>Membangun aplikasi web sederhana menggunakan framework Flask.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>
+        <i class="fas fa-envelope"></i> Email:
+        <a href="mailto:farizfathullahh@gmail.com">farizfathullahh@gmail.com</a>
+      </p>
+      <p>
+        <i class="fas fa-globe"></i> Media Sosial:
+        <a href="https://www.instagram.com/__doottt" target="_blank"
+          >Instagram</a
+        >
+        | <a href="https://wa.me/6282186115579" target="_blank">WhatsApp</a> |
+        <a href="https://www.tiktok.com/@userrdot__" target="_blank">TikTok</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 Fariz Fathullah Pradittya Putra.</p>
+    </footer>
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      toggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
